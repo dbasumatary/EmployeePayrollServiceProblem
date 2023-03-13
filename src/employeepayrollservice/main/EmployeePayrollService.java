@@ -9,7 +9,7 @@ public class EmployeePayrollService {
     private List<EmployeePayrollData> employeeList;
 
     public EmployeePayrollService() {
-        this.employeeList = new ArrayList<EmployeePayrollData>(); //created arraylist
+        this.employeeList = new ArrayList<EmployeePayrollData>();
     }
 
     //UC1-Use Case 1: Employee Payroll service to read and write employee payroll to a console
